@@ -17,3 +17,5 @@ n_i * c_i / n_i  每一种得分记为c_i 每一种得分的评分人数为n_i
    We propose SRGAN which is a GAN-based network optimized for a new perceptual loss. Here we replace
    the MSE-based content loss with a loss calculated on feature maps of the VGG network, which are
    more invariant to changes in pixel space.
+   我们提出了SRGAN，这是一个基于gan的网络优化的一个新的感知损失。
+   在这里，我们用在VGG网络的特征映射上计算的损失来替换基于MSE的内容损失，该损失对像素空间的变化更不变。
