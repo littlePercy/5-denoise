@@ -14,3 +14,6 @@ n_i * c_i / n_i  每一种得分记为c_i 每一种得分的评分人数为n_i
    最高的PSNR并不一定反映了感知上更好的SR结果。
 2. 在这项工作中，我们提出了一个超分辨率生成对抗网络（SRGAN），
    其中我们采用了一个具有跳跃连接和偏离MSE的深度残差网络（ResNet）作为唯一的优化目标。
+   We propose SRGAN which is a GAN-based network optimized for a new perceptual loss. Here we replace
+   the MSE-based content loss with a loss calculated on feature maps of the VGG network, which are
+   more invariant to changes in pixel space.
