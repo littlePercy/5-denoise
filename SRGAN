@@ -1,1 +1,7 @@
+########## 图像质量评价方法 ##########
+图像质量评价可以分为主观评价方法和客观评价方法, 
+https://blog.csdn.net/qq_23304241/article/details/80953613
+https://zhuanlan.zhihu.com/p/54539091
 MOS scores
+主观评价由观察者对图像质量进行主观评分, 一般采用平均主观得分(Mean opin-ion score, MOS) 或
+平均主观得分差异(Di®erential mean opinion score, DMOS) (即人眼对无失真图像和有失真图像评价得分的差异) 
